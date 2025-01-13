@@ -1,0 +1,36 @@
+.header {
+  background-image: url("../icons/heroImage-phone.svg");
+  background-size: cover;
+  background-position: center;
+
+  &__content {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    color: $white-color;
+    margin: 0;
+
+    @include onTablet {
+      font-size: 48px;
+    }
+
+    @include onDesctop {
+      font-size: 64px;
+    }
+  }
+
+  &__bottom {
+    padding-bottom: 40px;
+  }
+}
