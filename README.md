@@ -1,1 +1,1 @@
-[DEMO LINK](https://yarikkedrych.github.io/layout_landing-page/)
+[DEMO LINK](https://YarikKedrych.github.io/LandingPage/)

@@ -7,7 +7,7 @@
   }
 
   &__content {
-    @include page-Grid;
+    @include page-grid;
 
     background-color: $about-us-color;
     padding: 48px 0;
