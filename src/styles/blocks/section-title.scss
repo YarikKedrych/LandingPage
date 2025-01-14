@@ -7,11 +7,7 @@
   line-height: 100%;
   text-align-last: left;
 
-  @include onTablet {
+  @include on-tablet {
     font-size: 48px;
   }
-
-  // &--align--left {
-  //   text-align-last: left;
-  // }
 }

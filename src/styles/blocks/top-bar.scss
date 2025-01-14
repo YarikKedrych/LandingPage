@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
 
-  @include onTablet {
+  @include on-tablet {
     padding-block: 36px;
   }
 
@@ -12,13 +12,13 @@
     display: flex;
     gap: 24px;
   }
-  
+
   &__logo {
     display: flex;
 
     @include hover(transform, scale(1.2));
 
-    @include onTablet {
+    @include on-tablet {
       width: 228px;
       height: 24px;
     }

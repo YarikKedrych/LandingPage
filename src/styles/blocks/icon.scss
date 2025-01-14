@@ -9,19 +9,19 @@
 
   @include hover(transform, scale(1.2));
 
-  @include onTablet {
+  @include on-tablet {
     width: 32px;
     height: 32px;
     gap: 32px;
   }
 
   &__phone {
-    background-image: url('../icons/Icon-Phone-call.svg');
+    background-image: url("../icons/Icon-Phone-call.svg");
   }
 
   &__menu {
     background-image: url("../icons/Icon-Burger-menu.svg");
-  
+
     &:hover {
       background-image: url("../icons/Icon-Burger-menu-hover.svg");
     }

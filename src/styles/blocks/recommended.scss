@@ -1,17 +1,16 @@
 .recommended {
-
   &__products {
-    display: grid;
-    row-gap: 40px;
-    
-    @include onTablet {
-      justify-items: center;
-    }
+    @include page-grid;
 
-    @include onDesctop {
-      grid-template-columns: repeat(3, 1fr);
-      column-gap: 24px;
-      justify-items: start ;
+    row-gap: 40px;
+    padding: 0;
+  }
+
+  &__product {
+    grid-column: 1 / -1;
+
+    @include on-desctop {
+      grid-column: span 4;
     }
   }
 }

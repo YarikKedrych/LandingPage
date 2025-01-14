@@ -20,11 +20,23 @@
     transition: all 0.3s;
     transform: translateX(-100%);
     pointer-events: none;
-    
+
     &:target {
       opacity: 1;
       transform: translateX(0);
       pointer-events: all;
     }
+  }
+}
+
+h2 {
+  font-size: 32px;
+
+  @include on-tablet {
+    font-size: 40px;
+  }
+
+  @include on-desctop {
+    font-size: 48px;
   }
 }
