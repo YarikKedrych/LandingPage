@@ -1,4 +1,16 @@
 .contact-us {
+  &__title {
+    font-size: 32px;
+
+    @include on-tablet {
+      font-size: 40px;
+    }
+  
+    @include on-desctop {
+      font-size: 48px;
+    }
+  }
+
 
   &__container {
     --columns: 1;
@@ -87,16 +99,4 @@
   border: none;
   border-radius: 8px;
   background-color: $inputs-color;
-}
-
-h2 {
-  font-size: 32px;
-
-  @include on-tablet {
-    font-size: 40px;
-  }
-
-  @include on-desctop {
-    font-size: 48px;
-  }
 }
